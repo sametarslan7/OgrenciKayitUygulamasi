@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html lang="tr">
+    <!DOCTYPE html>
+    <html lang="tr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASP.NET MVC Proje Açıklaması</title>
-    <style>
-        body {
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASP.NET MVC Proje Açıklaması</title>
+        <style>
+            body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             background-color: #f4f4f4;
             margin: 0;
             padding: 20px;
-        }
+            }
 
         .container {
             max-width: 800px;
@@ -40,13 +40,13 @@
             font-size: 14px;
         }
     </style>
-</head>
+    </head>
 
-<body>
-    <div class="container">
-        <h1>ASP.NET MVC Proje Açıklaması</h1>
-        <p>Visual Studio editörü üzerinden <strong>ASP.Net Web Application (.NET Framework)</strong> seçerek projeyi
-            <strong>MVC</strong> formatında oluşturalım.</p>
+    <body>
+        <div class="container">
+            <h1>ASP.NET MVC Proje Açıklaması</h1>
+            <p>Visual Studio editörü üzerinden <strong>ASP.Net Web Application (.NET Framework)</strong> seçerek projeyi
+                <strong>MVC</strong> formatında oluşturalım.</p>
 
         <p>Daha sonra yapacağımız ilk iş, <code>App_Data</code> klasörüne sağ tıklayarak <code>Add New Item</code> diyerek
             <strong>SQL Server Database</strong> oluşturmaktır.</p>
@@ -75,6 +75,6 @@
 
         <p>Proje bu haliyle çalışır durumda oluyor. Tarayıcıda çalıştırıp çeşitli işlemleri artık yapabiliriz.</p>
     </div>
-</body>
+    </body>
 
-</html>
+    </html>
