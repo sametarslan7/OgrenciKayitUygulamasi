@@ -1,0 +1,58 @@
+﻿@model MVCOgrenciKayit.Models.Table
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Table</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.OGRAD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OGRAD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OGRSOYAD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OGRSOYAD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OGRMAIL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OGRMAIL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OGRFOTO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OGRFOTO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OGRADRES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OGRADRES)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OGRID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
