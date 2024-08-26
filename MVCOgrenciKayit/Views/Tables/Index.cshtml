@@ -4,10 +4,10 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Öğrenci Listesi</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Yeni Kayıt", "Create")
 </p>
 <table class="table">
     <tr>
@@ -19,9 +19,6 @@
         </th>
         <th>
             @Html.DisplayNameFor(model => model.OGRMAIL)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.OGRFOTO)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.OGRADRES)
@@ -41,15 +38,12 @@
             @Html.DisplayFor(modelItem => item.OGRMAIL)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.OGRFOTO)
-        </td>
-        <td>
             @Html.DisplayFor(modelItem => item.OGRADRES)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.OGRID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.OGRID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.OGRID })
+            @Html.ActionLink("Düzenle", "Edit", new { id=item.OGRID } , new {@class = "btn btn-success"}) |
+            @Html.ActionLink("Detaylar", "Details", new { id=item.OGRID } , new { @class = "btn btn-info" }) |
+            @Html.ActionLink("Sil", "Delete", new { id=item.OGRID } , new { @class = "btn btn-danger" })
         </td>
     </tr>
 }
